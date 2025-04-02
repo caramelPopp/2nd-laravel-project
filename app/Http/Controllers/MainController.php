@@ -10,14 +10,14 @@ class MainController extends Controller {
     }
 
     public static function courses() {
-        return view();
+        return view('webpages.courses');
     }
 
     public static function departments() {
-        return view();
+        return view('webpages.departments');
     }
 
     public static function contact() {
-        return view();
+        return view('webpages.contact');
     }
 }
